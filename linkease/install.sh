@@ -21,10 +21,10 @@ chmod +x $KSROOT/init.d/S99linkease.sh
 # 为新安装文件赋予执行权限...
 chmod 755 $KSROOT/scripts/linkease*
 
-dbus set softcenter_module_linkease_description=强大易用的全平台共享工具
+dbus set softcenter_module_linkease_description="多用户全平台文件管理工具，支持双向同步！"
 dbus set softcenter_module_linkease_install=1
 dbus set softcenter_module_linkease_name=linkease
-dbus set softcenter_module_linkease_title=LinkEase
+dbus set softcenter_module_linkease_title="易有云2.0 - LinkEase"
 dbus set softcenter_module_linkease_version=0.1
 
 # make linkease restart/stop to apply change
