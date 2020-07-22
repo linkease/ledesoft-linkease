@@ -25,6 +25,7 @@ cat version
 DATE=`date +%Y-%m-%d_%H:%M:%S`
 cat > ./config.json.js <<EOF
 {
+"module":"$MODULE",
 "version":"$VERSION",
 "md5":"$md5value",
 "home_url":"$HOME_URL",
